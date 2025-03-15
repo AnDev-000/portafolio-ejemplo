@@ -15,8 +15,17 @@
 }
 
 * {
-  padding: 0px; /*para que no haya margenes ni padding por defecto*/
-  margin: 0px; /*para que no haya margenes ni padding por defecto*/
+/*para que no haya margenes ni padding por defecto*/
+  padding: 0px; 
+  margin: 0px; 
+}
+
+/*para corregir el footer y que se quede bien posicionado*/
+html,
+body {
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -46,6 +55,17 @@ body {
 strong {
   color: var(--color-primario);
 }
+
+/*para corregir el footer y que se quede bien posicionado*/
+main {
+    flex: 1; /* Permite que el contenido del main crezca y empuje al footer */
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+  }
+
 
 .presentacion {
   padding: 5% 15%;

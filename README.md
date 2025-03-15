@@ -29,8 +29,22 @@ El objetivo fue construir un portafolio personal aplicando conceptos clave de HT
 ### Vista en Móvil
 ![Vista en Móvil](./assets/screenshot/movil.png)
 
-## Cómo Visualizar el Proyecto
+## Cómo Usar Este Proyecto
 
 1. Clona este repositorio en tu máquina local:
    ```bash
    git clone https://github.com/AnDev-000/portafolio-ejemplo.git
+
+## Recursos del Curso
+
+Este proyecto se desarrolló gracias a los materiales y clases del curso **HTML y CSS: trabajando con responsividad y publicación de proyectos** de **Alura Latam**.
+
+Forma parte del programa **ONE - Oracle Next Education**, que brinda formación en desarrollo web y otras tecnologías.
+
+## Autor
+
+Este proyecto fue creado en el contexto del programa **ONE - Oracle Next Education** como parte del aprendizaje y desarrollo de habilidades de su autor.
+
+## Licencia
+
+Este proyecto está bajo la licencia **MIT**. Siéntete libre de usarlo, modificarlo y distribuirlo para tus proyectos personales o educativos.
