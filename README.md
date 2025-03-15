@@ -10,6 +10,10 @@ El objetivo fue construir un portafolio personal aplicando conceptos clave de HT
 - Al finalizar el curso, el proyecto quedó publicado en su estado actual.
 - Diseñado para ser una introducción clara y profesional al desarrollo web responsivo.
 
+## Portafolio en Línea
+
+¡Puedes ver el proyecto en acción aquí! 👉 [Portafolio Ejemplo - GitHub Pages](https://andev-000.github.io/portafolio-ejemplo/)
+
 ## Características
 
 - **Diseño Responsivo**: Adaptado para computadoras, tablets y smartphones.
