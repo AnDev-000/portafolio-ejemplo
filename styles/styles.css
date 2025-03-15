@@ -1,154 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*variables*/
-:root{
-    /*colores*/
-    --color-primario: #22D4FD;
-    --color-secundario: #F6F6F6;
-    --color-terciario: #000000;
-    --color-destaque: #ed0eae;
-    --color-hover: #272727;
+:root {
+  /*colores*/
+  --color-primario: #22d4fd;
+  --color-secundario: #f6f6f6;
+  --color-terciario: #000000;
+  --color-destaque: #ed0eae;
+  --color-hover: #272727;
 
-    /*fuentes*/
-    --fuente-titulo: 'Krona One', sans-serif;
-    --fuente-texto: 'Montserrat', sans-serif;
+  /*fuentes*/
+  --fuente-titulo: "Krona One", sans-serif;
+  --fuente-texto: "Montserrat", sans-serif;
 }
 
-*{
-    padding: 0px; /*para que no haya margenes ni padding por defecto*/
-    margin: 0px; /*para que no haya margenes ni padding por defecto*/
+* {
+  padding: 0px; /*para que no haya margenes ni padding por defecto*/
+  margin: 0px; /*para que no haya margenes ni padding por defecto*/
 }
 
-body{
-    box-sizing: border-box; /*hace que se incluya el padding y border evitando que los elementos hijos se salgan de su contenedor*/
-    background-color: var(--color-terciario);
-    color: var(--color-secundario);
-    /*height: 100vh; es para que el body ocupe el 100% de la pantalla*/
-
+body {
+  box-sizing: border-box; /*hace que se incluya el padding y border evitando que los elementos hijos se salgan de su contenedor*/
+  background-color: var(--color-terciario);
+  color: var(--color-secundario);
+  /*height: 100vh; es para que el body ocupe el 100% de la pantalla*/
 }
 
-.header{
-    padding: 2% 0% 0% 15%;
+.header {
+  padding: 2% 0% 0% 15%;
 }
 
-.header__menu{
-    display: flex;
-    gap: 80px;
+.header__menu {
+  display: flex;
+  gap: 80px;
 }
 
-.header__menu__link{
-    font-family: var(--fuente-texto);
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--color-primario);
-    text-decoration: none;
+.header__menu__link {
+  font-family: var(--fuente-texto);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primario);
+  text-decoration: none;
 }
 
-strong{
-    color: var(--color-primario);
+strong {
+  color: var(--color-primario);
 }
 
-
-
-.presentacion{
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
+.presentacion {
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
 }
 
-.presentacion__contenido{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.presentacion__contenido {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.presentacion__contenido__titulo{
-    font-size: 2.25rem;
-    font-family: var(--fuente-titulo);
-    font-weight: 400;
-    font-style: normal;
+.presentacion__contenido__titulo {
+  font-size: 2.25rem;
+  font-family: var(--fuente-titulo);
+  font-weight: 400;
+  font-style: normal;
 }
 
-.titulo-destaque2{
-    color: var(--color-destaque);
-    font-size: 1.5rem;
-    font-weight: bold;
+.titulo-destaque2 {
+  color: var(--color-destaque);
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.presentacion__contenido__texto{
-    font-family: var(--fuente-texto);
-    font-size: 1.5rem;
-
+.presentacion__contenido__texto {
+  font-family: var(--fuente-texto);
+  font-size: 1.5rem;
 }
 
-.presentacion__enlaces{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center; /*al usar flex-direction: column se debe ocupar align-items: center; en vez de justify-content:center para centrar los elementos*/
-    gap: 32px;
+.presentacion__enlaces {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center; /*al usar flex-direction: column se debe ocupar align-items: center; en vez de justify-content:center para centrar los elementos*/
+  gap: 32px;
 }
-.presentacion__enlaces__subtitulo{
-    font-family: var(--fuente-titulo);
-    font-size: 1.5rem;
-    font-weight: 400;
+.presentacion__enlaces__subtitulo {
+  font-family: var(--fuente-titulo);
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
-.presentacion__enlaces__link{
-    width: 50%;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0;
-    text-decoration: none;
-    color: #F6F6F6;
-    font-family: var(--fuente-texto);
-    border: 2px solid var(--color-primario);
-    display: flex;
+.presentacion__enlaces__link {
+  width: 50%;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-family: var(--fuente-texto);
+  border: 2px solid var(--color-primario);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.presentacion__enlaces__link:hover {
+  background-color: var(--color-hover);
+  color: var(--color-terciario);
+}
+
+.presentacion__imagen {
+  width: 50%;
+}
+
+.footer {
+  background-color: var(--color-primario);
+  padding: 24px 0;
+  color: var(--color-terciario);
+  text-align: center;
+  font-family: var(--fuente-texto);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 10%;
+  }
+
+  .header__menu {
     justify-content: center;
-    gap: 10px;
-}
-
-.presentacion__enlaces__link:hover{
-    background-color: var(--color-hover);
-    color: var(--color-terciario);
-}
-
-.presentacion__imagen{
-    width: 50%;
-}
-
-.footer{
-    background-color: var(--color-primario);
-    padding: 24px 0;
-    color: var(--color-terciario);
-    text-align: center;
-    font-family: var(--fuente-texto);
-    font-size: 1.5rem;
-    font-weight: 400;
-
-}
-
-@media (max-width: 1200px){
-    .header{
-        padding: 10%;
-    }
-
-    .header__menu{
-        justify-content: center;
-    }
-    .presentacion{
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-    .presentacion__contenido{
-        width: auto;
-    }
-    .presentacion__enlaces__link{
-        width: 60%;
-    }
+  }
+  .presentacion {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .presentacion__contenido {
+    width: auto;
+  }
+  .presentacion__enlaces__link {
+    width: 60%;
+  }
 }
